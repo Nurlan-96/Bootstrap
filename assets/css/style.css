@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:0 10px;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+}
+.navbar>div{
+    margin: 0px 50px;
+}
+.basket {
+    position: relative;
+}
+.basket p{
+    position: absolute;
+    font-size: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: white;
+}
+.basket i{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.head-left *{
+    margin: 0 7px;
+    color: black;
+}
+.head-mid li{
+    list-style: none;
+}
+header{
+    font-size: 13px;
+    margin-top: 15px;
+}
+a:hover{
+    color: teal;
+}
+.head-mid a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.archive-head{
+    background-color: #FAFAFA;
+    position: relative;
+    overflow: hidden;
+}
+.archive-head i{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #b4b4b4;
+    opacity: .25;
+    font-size: 126px;
+    line-height: 1.45;
+    font-weight: 300;
+    font-style: normal;
+    vertical-align: baseline;
+}
+.main-left{
+    width: 70%;
+}
+.main-right{
+    width: 25%;
+}
+.prod{
+ width: 33%;
+}
+.prod img{
+ width: 100%;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: teal;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+.prod>a{
+    text-decoration: none;
+    color: black;
+}
+.prod>p{
+    color: teal;
+}
+.prod>a>h2{
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.prod *{
+    text-align: center;
+}
+.prod>a>p{
+    display: block;
+    color: #b4b4b4;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .075em;
+}
+.line>img{
+    width: 100%;
+    object-fit: cover;
+}
+.filter-slider{
+    position: relative;
+}
+.filter-button button{
+    color: #fff;
+    padding: 11px 22px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: teal;
+}
+.cat-cont-each a{
+    text-decoration: none;
+    color: black;
+}
+.cat-cont-each ul{
+    list-style-type: circle;
+}
+.cat-cont-each{
+    border-bottom: 1px solid gray;
+}
+.cat-cont-each p{
+    color: gray;
+}
+.tpr-left img{
+    width: 100%;
+    padding: 10px;
+}
+.tpr-left{
+    width: 45%;
+}
+.tpr-right a{
+    text-decoration: none;
+    color: black;
+}
+.tpr-right{
+    width: 45%;
+}
+.top-rate-prods{
+    margin: 10px;
+}
+footer{
+    background-color: #F7F7F7;
+}
+.headline img{
+    width: 100%;
+}
+.foot-cont{
+    width: 33%;
+}
