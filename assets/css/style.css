@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    margin:0 10px;
-}
 .navbar{
     width: 100%;
     height: auto;
