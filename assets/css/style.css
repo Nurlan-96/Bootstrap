@@ -156,9 +156,18 @@ a:hover{
 footer{
     background-color: #F7F7F7;
 }
-.headline img{
+.element .el-img{
     width: 100%;
 }
-.foot-cont{
-    width: 33%;
+.el-par{
+    text-align: center;
+}
+.footer-pics>img{
+    width:18%;
+}
+.footer-pics{
+width: 100%;
+}
+.footer{
+    width: 100%;
 }
